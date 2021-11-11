@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoTask!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_to_do">Title  </string>
+    <string name="hint_to_do">  task? </string>
+    <string name="details_to_do"> details ?  </string>
+    <string name="Completed_check_box"> Completed! </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task_title">Task Title</string>
+    <string name="todo">TODO</string>
+    <string name="date_of_task">Date </string>
+
+</resources>

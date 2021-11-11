@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD4242"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECE4E4"
+        android:ems="10"
+        android:hint="@string/hint_to_do"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/task_details"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#D3CFCF"
+        android:ems="10"
+        android:hint="details"
+        android:inputType="textPersonName"
+        android:textSize="22dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/date_Btn"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#74B3DD"
+        android:text="Date"
+        android:textColor="#FAF3F3"
+        android:textColorHint="#F1E5E5"
+        android:textSize="22dp"
+        app:rippleColor="#9C009688"
+        tools:text="Date " />
+
+    <CheckBox
+        android:id="@+id/Completed_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8CDC8"
+        android:text="@string/Completed_check_box"
+        android:textSize="22dp" />
+
+</LinearLayout>
+
